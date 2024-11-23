@@ -24,7 +24,7 @@ app.use(express.json()) // for json
 
 // this middleware is use to solve problems regarding CORS issue of sending data between frontend and backend
 app.use(cors({
-    origin:["http://localhost:3000/", "https://mern-task-manager.onrender.com"] // database can now accepts data from this url lists
+    origin:["http://localhost:3000/", "https://mern-task-manager-6u93.onrender.com"] // database can now accepts data from this url lists
 }))
 
 /* 
